@@ -1,0 +1,6 @@
+{
+  "name": "MITRAARJA - Hyperlocal Marketplace Arjawinangun",
+  "description": "Platform marketplace hyperlocal Arjawinangun & Cirebon menghubungkan Customer, Merchant UMKM, dan Kurir Independen untuk Makanan, Belanja, Apotek, Kirim Barang, dan PPOB.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

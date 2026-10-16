@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>MITRAARJA - Hyperlocal Marketplace Arjawinangun</title>
+    <meta name="description" content="Platform marketplace hyperlocal Arjawinangun & Cirebon menghubungkan Customer, Merchant UMKM, dan Kurir Independen untuk Makanan, Belanja, Apotek, Kirim Barang, dan PPOB." />
+    <meta property="og:title" content="MITRAARJA - Hyperlocal Marketplace Arjawinangun" />
+    <meta property="og:description" content="Platform marketplace hyperlocal Arjawinangun & Cirebon menghubungkan Customer, Merchant UMKM, dan Kurir Independen untuk Makanan, Belanja, Apotek, Kirim Barang, dan PPOB." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <script>
+      // Ensure window.fetch has a setter so browser extensions or interceptors don't throw "Cannot set property fetch of #<Window> which has only a getter"
+      (function() {
+        try {
+          var _origFetch = typeof window !== 'undefined' && window.fetch ? window.fetch.bind(window) : null;
+          if (_origFetch) {
+            Object.defineProperty(window, 'fetch', {
+              get: function() {
+                return _origFetch;
+              },
+              set: function(fn) {
+                _origFetch = fn;
+              },
+              configurable: true,
+              enumerable: true
+            });
+          }
+        } catch (_) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-900 text-slate-800 antialiased selection:bg-emerald-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
